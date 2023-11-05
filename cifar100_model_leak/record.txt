@@ -1,0 +1,6 @@
+Decision_Tree  train model run time --- 0 : 4 : 40.420023 ---
+Decision_Tree  predict a data run time --- 0 : 0 : 0.0 ---
+  accuracy: 0.17814285714285713
+Random_Forest  train model run time --- 0 : 32 : 33.287105 ---
+Random_Forest  predict a data run time --- 0 : 0 : 0.224002 ---
+  accuracy: 0.00015873015873015873
