@@ -1,10 +1,17 @@
 # MACHINE LEARNING MODEL OF DIFFERENTIAL PRIVACY BUDGET AUTOMATIC SELECTION MECHANISM  
 In this work, we train the machine learning model using accuracy, privacy leakage and dataset as features to find the appropriate privacy budget.
 
+
 Because different privacy budgets will affect the accuracy and privacy leakage of the machine learning model.  
 Users can either **""ask for privacy leakage only""** or **""ask for accuracy and privacy leakage""**.  
 Our trained model will give us the appropriate privacy budget.  
-**[If the user asks for privacy leaks only, the possible accuracy rates will be given separately.]**
+**[If the user asks for privacy leaks only, the possible accuracy rates will be given separately.]**  
+
+<img width="400" height="250" src="https://github.com/SS-rong/MS_Research-/blob/main/img/DNN-1.png"/>      <br />
+<img width="400" height="250" src="https://github.com/SS-rong/MS_Research-/blob/main/img/DNN-1.png"/>      <br />  
+
+# DataSet  
+In this work, two datasets are used, **Cifar100** and **Purchase100**
 
 # How to Use
 1. Put the labeled data into the folder named "original_data".
