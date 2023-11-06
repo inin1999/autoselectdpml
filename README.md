@@ -10,7 +10,6 @@ Users can either **"ask for accuracy and privacy leakage"** or **"ask for privac
 </br>
 Our trained model will give us the appropriate privacy budget.  
 **If the user asks for privacy leaks only, the possible accuracy rates will be given separately.**  
-</br>
 **[Ask for Privacy Leakage Only]**  
 <img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Privacy_Requirements.png" width="450"/>  
 </br>
@@ -23,5 +22,7 @@ In this work, two datasets are used, **Cifar100** and **Purchase100**
 2. Use one of the files "preprocess_dataset_**.py" to preprocess the data.  
 (2.5. To merge the preprocessed data from all scenarios, use "merge_dataset.py".)  
 The pre-processed data will be stored in a folder named "data".
-3. Training the model
+3. Training the model  
+The models Decision Tree, CNN, KNN, Logistic_Regression, Random_Forest can be trained in the folders **cifar100_model**, **cifar100_model_leak**, **purchase_model** and **purchase_model_leak**.
+4. Testing the model  
 
