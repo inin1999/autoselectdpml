@@ -7,9 +7,9 @@ Users can either **""ask for privacy leakage only""** or **""ask for accuracy an
 Our trained model will give us the appropriate privacy budget.  
 **[If the user asks for privacy leaks only, the possible accuracy rates will be given separately.]**  
 
-<center class="half">
-		<img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Accuracy%20_and_Privacy_Requirements.png" width="300"/><img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Privacy_Requirements.png" width="300"/>
-</center>
+
+<img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Accuracy%20_and_Privacy_Requirements.png" width="400"/><img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Privacy_Requirements.png" width="400"/>
+
 
 # DataSet  
 In this work, two datasets are used, **Cifar100** and **Purchase100**
