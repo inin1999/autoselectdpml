@@ -18,8 +18,10 @@ Our trained model will give us the appropriate privacy budget.
 In this work, two datasets are used, **Cifar100** and **Purchase100**
 
 # How to Use
-1. Put the labeled data into the folder named "original_data".
+1. Put the labeled data into the folder named "original_data".  
+Save and store label completion accuracy and privacy leaks as a file here, and place the dataset here as well.
 2. Use one of the files "preprocess_dataset_**.py" to preprocess the data.  
+Combining accuracy and privacy breaches with datasets
 (2.5. To merge the preprocessed data from all scenarios, use "merge_dataset.py".)  
 The pre-processed data will be stored in a folder named "data".
 3. Training the model  
