@@ -23,6 +23,8 @@ In this work, two datasets are used, **Cifar100** and **Purchase100**
 (2.5. To merge the preprocessed data from all scenarios, use "merge_dataset.py".)  
 The pre-processed data will be stored in a folder named "data".
 3. Training the model  
-The models Decision Tree, CNN, KNN, Logistic_Regression, Random_Forest can be trained in the folders **cifar100_model**, **cifar100_model_leak**, **purchase_model** and **purchase_model_leak**.
+The models Decision Tree, CNN, KNN, Logistic_Regression, Random_Forest can be trained in the folders **cifar100_model**, **cifar100_model_leak**, **purchase_model** and **purchase_model_leak**.  
+The trained model will be saved in a folder called model.  
 4. Testing the model  
+The folder named test can be used to test the trained model.
 
