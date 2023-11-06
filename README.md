@@ -5,13 +5,13 @@ In this work, we train the machine learning model using accuracy, privacy leakag
 Because different privacy budgets will affect the accuracy and privacy leakage of the machine learning model.  
 Users can either **"ask for accuracy and privacy leakage"** or **"ask for privacy leakage only"**.  
 </br>
-**"Ask for Accuracy and Privacy Leakage"**
+**[Ask for Accuracy and Privacy Leakage]**  
 <img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Accuracy%20_and_Privacy_Requirements.png" width="450"/>
 </br>
 Our trained model will give us the appropriate privacy budget.  
 **[If the user asks for privacy leaks only, the possible accuracy rates will be given separately.]**  
 </br>
-**"Ask for Privacy Leakage Only"**
+**[Ask for Privacy Leakage Only]**  
 <img src="https://github.com/inin1999/autoselectdpml/blob/main/img/System_Architecture_for_Privacy_Requirements.png" width="450"/>  
 </br>
 
